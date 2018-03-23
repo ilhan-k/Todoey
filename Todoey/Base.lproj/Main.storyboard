@@ -32,7 +32,11 @@
                             <outlet property="delegate" destination="Lbh-4D-iQt" id="y57-Wa-NpN"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Todoey" id="eHi-3G-JNX"/>
+                    <navigationItem key="navigationItem" title="Todoey" id="eHi-3G-JNX">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="L1a-iE-ffH">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="mainTableView" destination="pZ8-vc-Jpc" id="1vK-JT-jqP"/>
                     </connections>
