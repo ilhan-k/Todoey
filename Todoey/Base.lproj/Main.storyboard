@@ -35,6 +35,9 @@
                     <navigationItem key="navigationItem" title="Todoey" id="eHi-3G-JNX">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="L1a-iE-ffH">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="barButtonItemPressed:" destination="Lbh-4D-iQt" id="Tnh-57-mgs"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
